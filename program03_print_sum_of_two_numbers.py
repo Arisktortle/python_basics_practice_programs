@@ -1,4 +1,5 @@
 #input two numbers
+print("Welcoem to the sum computer.")
 num1 = int(input("Please input the first number: "))
 num2 = int(input("Please input the second number: "))
 
