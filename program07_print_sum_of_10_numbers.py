@@ -4,3 +4,4 @@ for i in range(10):
     sum += int(input(f"Please enter number {i+1}: "))
     
 #print sum of the numbers
+print("The sum of 10 numbers inputted is:", sum)
