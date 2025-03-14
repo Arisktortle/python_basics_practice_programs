@@ -6,3 +6,4 @@ num2 = int(input("Divide in what number: "))
 quotient = num1 / num2
 
 #prints the quotient without decimal point
+print("The calculated quotient is:", int(quotient))
