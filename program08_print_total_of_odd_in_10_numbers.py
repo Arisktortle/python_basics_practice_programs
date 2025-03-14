@@ -8,3 +8,4 @@ for i in range(10):
        odd += 1
     
 #print total of odd counted
+print("Total number of odd numbers:", odd)
