@@ -1,4 +1,5 @@
 #input two numbers
+print("Welcome to the quotient computer program.")
 num1 = float(input("Enter the number to divide: "))
 num2 = float(input("Divide in what number: "))
 
