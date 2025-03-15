@@ -16,4 +16,8 @@ while True:
         break
     
 #calculate the average by getting the sum of all divided by the total count
-#print the result
+if count > 0:
+    average = total_sum / count
+    print(f"The average of the numbers is: {average}")
+else:
+    print("No valid numbers were entered.") #print the result
