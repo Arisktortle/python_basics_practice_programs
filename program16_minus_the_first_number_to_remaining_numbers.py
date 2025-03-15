@@ -11,4 +11,5 @@ num9 = int(input("Enter the ninth number: "))
 num10 = int(input("Enter the tenth number: "))
 
 #calculate by subtracting the first number in other numbers
-#print the result
+result = num1 - (num2 + num3 + num4 + num5 + num6 + num7 + num8 + num9 + num10)
+print("The result is:", result)
