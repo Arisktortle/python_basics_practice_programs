@@ -1,4 +1,6 @@
 #create a list for number input
+numbers = []
+
 #loop that ask to input numbers
 #adds the inputted number into the list
 #check for value error, terminate if yes
