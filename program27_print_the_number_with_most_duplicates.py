@@ -10,6 +10,10 @@ while True:
         number = int(user_input)
         
 #count for the number times the number is inputted
+        if number in number_count:
+            number_count[number] += 1
+        else:
+            number_count[number] = 1
 
 #if an input is invalid exit program
     else:
