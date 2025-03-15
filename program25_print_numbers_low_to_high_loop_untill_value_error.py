@@ -15,4 +15,6 @@ while True:
         break
     
 #arrange the list in ascending order
+numbers.sort()
+
 #print the list from lowest to highest
