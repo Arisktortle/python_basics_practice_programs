@@ -18,3 +18,5 @@ while True:
         break
     
 #print the numbers entered after loop terminate
+if lowest_number is not None:
+    print(f"The lowest number entered was: {lowest_number}")
