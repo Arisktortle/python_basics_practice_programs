@@ -16,4 +16,10 @@ for num in numbers:
     else:
         number_count[num] = 1
         
+duplicate = [num for num, count in number_count.items() if count > 1]
+
 #print numbers with dupes
+if duplicate:
+    print("List of numbers with dupes:", duplicate)
+else:
+    print("No duplicates found.")
