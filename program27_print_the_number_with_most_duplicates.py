@@ -21,4 +21,10 @@ while True:
         break
     
 #check the number with the most duplicates
-#print that number
+if number_count:
+    most_duplicate_number = max(number_count, key=number_count.get)
+    most_duplicate_count = number_count[most_duplicate_number]
+    
+    print(f"The number with the most duplicates is {most_duplicate_number} with {most_duplicate_count} occurrences.") #print that number
+else:
+    print("No valid numbers were entered.")
