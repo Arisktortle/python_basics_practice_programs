@@ -16,4 +16,12 @@ while True:
         break
     
 #arrange the inputs highest to lowest
+numbers.sort(reverse=True)
+
 #print the inputs in descending order
+if numbers:
+    print("Numbers from highest to lowest:")
+    for num in numbers:
+        print(num)
+else:
+    print("No valid numbers were entered.")
