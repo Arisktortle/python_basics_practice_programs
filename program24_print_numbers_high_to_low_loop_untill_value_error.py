@@ -18,3 +18,6 @@ while True:
 numbers.sort(reverse=True)
 
 #print the inputted numbers from the list
+print("Numbers inputted in descending order:")
+for num in numbers:
+    print(num)
