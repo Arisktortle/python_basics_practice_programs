@@ -8,3 +8,4 @@ for a in range(10):
         even += 1
         
 #print the count
+print("The number of even numbers is:", even)
