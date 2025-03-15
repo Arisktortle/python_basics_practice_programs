@@ -20,3 +20,7 @@ while True:
         break
     
 #print the highest number input
+if highest_number is not None:
+    print(f"The highest number entered is: {highest_number}")
+else:
+    print("No valid numbers were entered.")
