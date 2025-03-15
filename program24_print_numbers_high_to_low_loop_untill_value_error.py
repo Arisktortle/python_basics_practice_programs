@@ -15,4 +15,6 @@ while True:
         break
     
 #sort the number inputted in decreasing
+numbers.sort(reverse=True)
+
 #print the inputted numbers from the list
