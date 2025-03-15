@@ -9,5 +9,11 @@ for i in range(10):
 #create dictionary to check number count for checking dupes
 number_count = {}
 
-#check for duplicates of input numbers
+#check and count for duplicates of input numbers
+for num in numbers:
+    if num in number_count:
+        number_count[num] += 1
+    else:
+        number_count[num] = 1
+        
 #print numbers with dupes
