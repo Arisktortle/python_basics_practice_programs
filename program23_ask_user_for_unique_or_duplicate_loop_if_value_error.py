@@ -14,4 +14,9 @@ while True:
             print("Duplicate")
             
 #add the inputted number in the list
+        entered_numbers.append(num)
+
 #terminate the program if invalid input
+    except ValueError:
+        print("Invalid input. Exiting the program.")
+        break
