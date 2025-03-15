@@ -9,7 +9,9 @@ while True:
     if user_input.isdigit() or (user_input.startswith('-') and user_input[1:].isdigit()):
         number = int(user_input)
         
-#intialize in the count and store in the variable if highest number
+#intialize in the highest number variable and store in the variable if highest number
+        if highest_number is None or number > highest_number:
+            highest_number = number
 
 #terminate the program if invalid input
     else:
