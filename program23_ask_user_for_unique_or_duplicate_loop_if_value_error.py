@@ -4,10 +4,10 @@ entered_numbers = []
 #create loop asking numbers for and checks if duplicate or unique
 while True:
     try:
-        # Ask user to input a number
+        #ask user to input a number with loop
         num = int(input("Enter a number (or type something non-numeric to exit): "))
         
-        # Check if the number is unique or a duplicate
+        #check if the number is unique or a duplicate
         if entered_numbers.count(num) == 0:
             print("Unique")
         else:
